@@ -1,0 +1,8 @@
+Package: myANOVA
+Type: Package
+Title: Oneway function to calculate Oneway-ANOVA test.
+Version: 0.1.0
+Authors@R: person("Thilanka", "Munasinghe", email = "thilankawillbe@gmail.com", role = c("aut", "cre"))
+Description: This "oneway()" function takes a list with factors as an argument and returns the basic AOV table as outupt.
+License: MIT
+LazyData: TRUE
