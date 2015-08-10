@@ -5,9 +5,20 @@
 #' Between and Within, Group names and thier factors, Means values of each group.
 #' @param z A list that contains groups.
 #' @return The list contains that ssb, ssw, dfw, dfb ...
-#' @export
 #' @name oneway.default
 #' @docType package
+#' \item{coefficients}{ a named vector of coefficients }
+#'
+#' \item{vcov}{ covariance matrix of coefficients }
+#'
+#' \item{fitted.values}{ fitted values }
+#'
+#' \item{residuals}{ residuals }
+#' mod1 <- linmod(Hwt~Bwt*Sex, cats)
+#' mod1
+#' summary(mod1)
+#' @export
+#' @describeIn linmod linmod.default(x, y, ...)
 NULL
 
 
